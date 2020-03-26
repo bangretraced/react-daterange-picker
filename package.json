@@ -17,6 +17,9 @@
 		"build": "rollup -c",
 		"storybook": "start-storybook"
 	},
+	"precommit": [
+		"build"
+	],
 	"dependencies": {
 		"@material-ui/core": "^4.9.5",
 		"@material-ui/icons": "^4.5.1",
